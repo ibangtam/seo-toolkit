@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Env files (never commit secrets)
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+token.json
+
+# Backup files
+*.bak
+*.backup
+
+# Internal/personal notes not meant for public
+NOTES.md
+TODO.private.md
+GITHUB_METADATA.md
