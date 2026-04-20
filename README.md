@@ -51,8 +51,6 @@ Skills in active development, coming to this toolkit:
 |---|---|---|
 | **qc-content** | 11-dimension quality control scorecard for SEO content. Anti-AI-pattern detection, GEO/AEO readiness checks, and Pass/Fix/Fail verdicts. | Q2 2026 |
 | **seo-drift** | "Git for SEO" — baseline snapshot of on-page SEO fields, detect regressions after deployment, compare before/after. | Q2 2026 |
-| **data-cache** | Local cache wrapper for MCP SEO tools (Ahrefs, GSC, SerpAPI) to save API credits on repeated queries. | Q3 2026 |
-| **keyword-research** | Multi-mode keyword research (seed expansion, URL analysis, list enrichment) with silo grouping. | Q3 2026 |
 
 Have a skill idea? [Open a discussion](../../discussions).
 
@@ -111,26 +109,21 @@ Each skill is self-contained but designed to chain with others in a full SEO wor
 
 ```
 ┌─────────────────────────┐
-│  1. Keyword Research    │  (coming soon)
-│  keyword-research       │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│  2. Content Outline     │  ✅ available now
+│  1. Content Outline     │  ✅ available now
 │  outline-content        │
 └────────────┬────────────┘
              ▼
 ┌─────────────────────────┐
-│  3. Content Writing     │  (private, agency-only)
+│  2. Content Writing     │  (private, agency-only)
 └────────────┬────────────┘
              ▼
 ┌─────────────────────────┐
-│  4. Quality Control     │  (coming soon)
+│  3. Quality Control     │  (coming soon)
 │  qc-content             │
 └────────────┬────────────┘
              ▼
 ┌─────────────────────────┐
-│  5. Deployment Check    │  (coming soon)
+│  4. Deployment Check    │  (coming soon)
 │  seo-drift              │
 └─────────────────────────┘
 ```

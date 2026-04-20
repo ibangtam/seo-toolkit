@@ -12,7 +12,7 @@ Official docs: [modelcontextprotocol.io](https://modelcontextprotocol.io)
 
 ### 🔍 SerpAPI MCP
 
-**Used by:** `outline-content`, `keyword-research` (upcoming), `qc-content` (upcoming)
+**Used by:** `outline-content`, `qc-content` (upcoming)
 
 **Purpose:** Fetch real-time SERP data, keyword suggestions, PAA, related searches.
 
@@ -22,7 +22,7 @@ Official docs: [modelcontextprotocol.io](https://modelcontextprotocol.io)
 
 ### 📊 Ahrefs MCP
 
-**Used by:** `outline-content`, `keyword-research` (upcoming), `seo-drift` (upcoming)
+**Used by:** `outline-content`, `seo-drift` (upcoming)
 
 **Purpose:** Volume, KD, backlinks, organic keywords, domain metrics.
 
@@ -32,7 +32,7 @@ Official docs: [modelcontextprotocol.io](https://modelcontextprotocol.io)
 
 ### 🎯 Google Keyword Planner MCP
 
-**Used by:** `outline-content`, `keyword-research` (upcoming)
+**Used by:** `outline-content`
 
 **Purpose:** Free alternative for search volume when Ahrefs isn't available.
 
